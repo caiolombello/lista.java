@@ -6,33 +6,33 @@ import java.awt.event.ActionListener;
 
 public class menuExs {
     public static void main(String[] args){
-        JFrame f = new JFrame("Produtos");
+        JFrame f = new JFrame("Lista de Exercícios");
 
-        JButton ex1_2 = new JButton("1001");
+        JButton ex1_2 = new JButton("1 e 2");
         a.setBounds(10, 15, 75, 30);
 
-        JButton ex3 = new JButton("1324");
+        JButton ex3 = new JButton("3");
         b.setBounds(90, 15, 75, 30);
 
-        JButton ex4 = new JButton("6548");
+        JButton ex4 = new JButton("4");
         c.setBounds(180, 15, 75, 30);
 
-        JButton ex5 = new JButton("0987");
+        JButton ex5 = new JButton("5");
         d.setBounds(10, 55, 75, 30);
 
-        JButton ex6_7 = new JButton("7623");
+        JButton ex6_7 = new JButton("6 e 7");
         e.setBounds(90, 55, 75, 30);
 
-        JButton ex8 = new JButton("7623");
+        JButton ex8 = new JButton("8");
         e.setBounds(90, 55, 75, 30);
 
-        JButton ex9 = new JButton("7623");
+        JButton ex9 = new JButton("9");
         e.setBounds(90, 55, 75, 30);
 
-        JButton ex10_11 = new JButton("7623");
+        JButton ex10_11 = new JButton("10 e 11");
         e.setBounds(90, 55, 75, 30);
 
-        JButton ex12_13 = new JButton("7623");
+        JButton ex12_13 = new JButton("12 e 13");
         e.setBounds(90, 55, 75, 30);
 
         f.add(ex1_2);
@@ -89,11 +89,6 @@ public class menuExs {
                 JOptionPane.showMessageDialog(null, String.format("Preço Total: %.2f", valor));
             }
         });
-
-//        JLabel valorTotal = null;
-//        valorTotal = valorTotal + valor;
-//        valorTotal = new JLabel(String.format("Valor Total: $%.2f.", valorTotal));
-//        valorTotal.setBounds(180,55, 100,30);
 
         f.setSize(300, 150);
         f.setLayout(null);
