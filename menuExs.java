@@ -229,7 +229,7 @@ public class menuExs {
         double porcDistribuidor = Double.parseDouble(JOptionPane.showInputDialog("Informe a porcentagem do distribuidor:"));
         double impostos = Double.parseDouble(JOptionPane.showInputDialog("Informe a porcentagem dos impostos:"));
 
-        double custo = (custoFabrica * (porcDistribuidor / 100)) + (custoFabrica * (impostos / 100));
+        double custo = ((custoFabrica * (porcDistribuidor / 100)) + (custoFabrica * (impostos / 100)) + custoFabrica);
 
         JOptionPane.showMessageDialog(null, String.format(
                 "Custo de Fábrica: $%.2f\n" +
